@@ -1,0 +1,104 @@
+#wodx-form h2, #wodx-form h3{
+    text-align: center;
+    color: #000;
+}
+#wodx-form p{
+    text-align: center;
+    color: #000;
+}
+#wodx-form .buttons-container {
+	display: flex;
+	justify-content: center;
+	padding: 0 15px;
+	align-content: center;
+}
+
+
+}
+#wodx-form label{
+	text-align: center /* Alineacion de etiqueta nombre y email */
+}
+#wodx-form input{
+    border-radius: 8px;
+}
+#wodx-form button{
+    margin-top: 15px;
+	background-color: transparent;
+	  padding: 1rem 1rem;
+	  border-radius: 1rem;
+	  display: flex;
+	  justify-content: space-around;
+	  align-items: center;
+	  flex-direction: column;
+	  cursor: pointer;
+	  transition: all .3s;
+}
+
+.btnAction {
+	margin-top: 15px;
+	background-color: #00afbf;
+	padding: 1rem 1rem;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+	transition: all .3s;
+	margin: 0 auto;
+	color: white;
+	width: 100%;
+}
+
+#wodx-form button[type=submit]{
+    width: 100%;
+    margin: 15px auto;
+}
+#wodx-form .tnp-field input[type="submit"]:hover {
+    padding: 10px 40px;
+    border: 3px solid #000 !important;
+    background-color: #000 !important;
+    color: #fff !important;
+}
+#wodx-form .final-container{
+    display: flex;
+    flex-wrap: wrap;
+	padding: 30px;
+}
+#wodx-form .final-title, #wodx-form .final-txt{
+	text-align: center;
+	width: 100%;
+	max-width: 100%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#cookie-notice .cookie-notice-container, #cookie-notice .cookie-revoke-container {
+		display: block; /* Cambiar block a none si se quiere ocultar el aviso de cookies */
+		font-size: 8px;
+		line-height: 8px;
+	}
+	.cookie-notice-container #cn-notice-buttons {
+    	display: none !important; /* Cambiar a block si se quieren mostrar los botones */
+	}
+}
+#wodx-form .buttons-container{
+flex-wrap: wrap;
+}
+#wodx-form button {
+	max-width: 45%;
+}
+}
+#wodx-form .final-container {
+	justify-content: center;
+}
+#wodx-form .buttons-container {
+	display: flex;
+	grid-gap: 1rem;
+	justify-content: center;
+	grid-template-columns: repeat(3,minmax(05rem,1fr));
+	padding: 0 15px;
+	align-content: center;
+}
+#wodx-form button {
+	padding: 10px 15px !important;
+}
